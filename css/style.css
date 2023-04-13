@@ -151,7 +151,7 @@ background-color: rgb(245, 141, 158);
     margin: 10px;
     border-radius: 12px;
 }
-.img_first{
+img_first{
     background-image: url(../img/firosnv-photography-Z2c6ounF-iE-unsplash.jpg);
     background-position: center;
     justify-content: center;
@@ -168,16 +168,16 @@ background-color: rgb(245, 141, 158);
 .cover p{
     font-size: 1.8em;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    position: relative;
+    top: 50px;
 }
-.img_seconde{
+img_seconde{
     background-image: url(../img/mailchimp-mpwF3Mv2UaU-unsplash.jpg);
     background-position: center;
     justify-content: center;
     background-size: cover;
 }
-.img_third{
+img_third{
     background-image: url(../img/muhammad-salim-5lHiq6wGYy8-unsplash.jpg);
     background-position: center;
     justify-content: center;
@@ -262,7 +262,7 @@ background-color: rgb(245, 141, 158);
         width: 85%;
     }
 
-    .img_first, .img_seconde, .img_third{
+    img_first, img_seconde, img_third{
         width: 90px;
         height: 80px;
         margin-left: 35px;
